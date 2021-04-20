@@ -1,0 +1,9 @@
+print('{0:_^15} \n{1:_^15}' .format('Tima', 'Nailev,'))
+print('{0:_^15}\n{1:_^15}\n{2:_^15}' .format('You got the', 'Shopping list', 'Here is it:'))
+print('SHOPPING LIST')
+print('Grocery:\n\tVegetables:\n\t\tTomato 1kilo\n\t\tPotato 2kilos\n\tFruits:\n\t\tApples 4kilos\n\t\tOrange 1kilo')
+print('Supermarket:\n\t1 pack of Toilet paper\n\t3 bottles of milk\n\t1 cake ')
+a = input('''\tAnd something else you want..
+\tWhat do you want?    ''' )
+print('\tAnd of course {} '.format(a))
+print('{0:_^15}' .format("That's all"))
